@@ -27,3 +27,11 @@ __pycache__/
 *.log
 .vercel
 /tmp/
+
+# Reference crawl of the live Odoo site — bulky and reproducible.
+# The crawl scripts and extracted data are kept; the downloads are not.
+tools/reference/site-mirror/pages/
+tools/reference/site-mirror/assets/
+
+# TS build info
+tsconfig.tsbuildinfo
