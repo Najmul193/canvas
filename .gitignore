@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Generated web derivatives — rebuild with scripts/build-assets.py
+# Sources live in assets/ and video/, which ARE tracked.
+src/assets/img/
+src/assets/video/
+
+# Reference scrape of the live Odoo site.
+# The crawl scripts and extracted data are tracked; the bulk downloads are not
+# (~70MB, and reproducible with scripts in site-mirror/).
+site-mirror/pages/
+site-mirror/assets/
+
+# Local screenshots / scratch
+/tmp/
+shots/
+*.log

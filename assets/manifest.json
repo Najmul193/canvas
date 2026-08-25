@@ -1,0 +1,824 @@
+{
+ "01-brand": [
+  {
+   "file": "logo-emblem-wordmark-stacked.png",
+   "w": 1000,
+   "h": 667,
+   "kb": 49,
+   "note": "Emblem + wordmark, transparent, 1000x667. PRIMARY.",
+   "source": "6465__logopng.png"
+  },
+  {
+   "file": "logo-emblem-wordmark-tight.png",
+   "w": 1000,
+   "h": 522,
+   "kb": 61,
+   "note": "Tighter lockup, transparent, 1000x522.",
+   "source": "6466__logopng.png"
+  },
+  {
+   "file": "logo-wordmark-outline.png",
+   "w": 500,
+   "h": 173,
+   "kb": 16,
+   "note": "CANVAS wordmark outline only, transparent, 500x173.",
+   "source": "6462__logo p.png"
+  },
+  {
+   "file": "logo-on-white-1920.jpg",
+   "w": 1920,
+   "h": 1080,
+   "kb": 111,
+   "note": "Logo on white, 1920x1080. Reference for clear-space.",
+   "source": "1349__logo2.jpg"
+  },
+  {
+   "file": "founder-tanwy-kabir.jpg",
+   "w": 587,
+   "h": 587,
+   "kb": 42,
+   "note": "Founder portrait, 587x587. Small \u2014 reshoot for the About page.",
+   "source": "1701__tanwy.jpg"
+  }
+ ],
+ "02-hero": [
+  {
+   "file": "hero-gold-collar-foliage.jpg",
+   "w": 1279,
+   "h": 1920,
+   "kb": 143,
+   "note": "Black dress, gold collar, dark foliage. 1279x1920. Strongest hero.",
+   "source": "6401___OGR2513.JPG"
+  },
+  {
+   "file": "hero-seated-heritage-courtyard.jpg",
+   "w": 1279,
+   "h": 1920,
+   "kb": 226,
+   "note": "Seated, gold collar, heritage interior. 1279x1920.",
+   "source": "6399__05.jpg"
+  },
+  {
+   "file": "hero-atmospheric-interior.jpg",
+   "w": 1279,
+   "h": 1920,
+   "kb": 212,
+   "note": "Low-key interior, gold on black. 1279x1920.",
+   "source": "6398__08.jpg"
+  },
+  {
+   "file": "hero-magenta-saree-courtyard.jpg",
+   "w": 1284,
+   "h": 1920,
+   "kb": 235,
+   "note": "Magenta saree, courtyard, brand berry. 1284x1920.",
+   "source": "6397__01.jpg"
+  },
+  {
+   "file": "hero-two-women-teal-ivory.jpg",
+   "w": 1280,
+   "h": 1920,
+   "kb": 358,
+   "note": "Two women, teal + ivory. 1280x1920.",
+   "source": "6425__DSC01518.jpg"
+  },
+  {
+   "file": "hero-silver-collar-portrait.jpg",
+   "w": 1809,
+   "h": 1920,
+   "kb": 363,
+   "note": "Silver collar portrait. 1809x1920.",
+   "source": "6455___OGR2075.JPG"
+  },
+  {
+   "file": "hero-shoulder-chain-dark.jpg",
+   "w": 1564,
+   "h": 1920,
+   "kb": 213,
+   "note": "Gold shoulder chain on black. 1564x1920.",
+   "source": "6458__story-05.jpg"
+  }
+ ],
+ "03-bridal": [
+  {
+   "file": "bridal-red-marigold.jpg",
+   "w": 1280,
+   "h": 1920,
+   "kb": 299,
+   "note": "Bride in red, marigold. 1280x1920.",
+   "source": "6428__DSC01081.jpg"
+  },
+  {
+   "file": "bridal-gold-collar.jpg",
+   "w": 1279,
+   "h": 1920,
+   "kb": 281,
+   "note": "Bridal gold collar. 1279x1920.",
+   "source": "6436___OGR2120.JPG"
+  },
+  {
+   "file": "bridal-preparation-two.jpg",
+   "w": 1280,
+   "h": 1920,
+   "kb": 296,
+   "note": "Bride + attendant. 1280x1920.",
+   "source": "6442__DSC01243.jpg"
+  },
+  {
+   "file": "bridal-ivory-saree.jpg",
+   "w": 1280,
+   "h": 1920,
+   "kb": 193,
+   "note": "Ivory saree, gold. 1280x1920.",
+   "source": "6444__DSC01045.jpg"
+  },
+  {
+   "file": "bridal-red-white-saree.jpg",
+   "w": 1328,
+   "h": 1920,
+   "kb": 205,
+   "note": "Red + white saree. 1328x1920.",
+   "source": "7854__IMG_3460.jpg"
+  }
+ ],
+ "04-atelier": [
+  {
+   "file": "atelier-jewellery-box-velvet.jpg",
+   "w": 1920,
+   "h": 1280,
+   "kb": 282,
+   "note": "Pieces in a wooden box on velvet. 1920x1280. Landscape.",
+   "source": "6485__DSC01127.jpg"
+  },
+  {
+   "file": "atelier-hasuli-in-case.jpg",
+   "w": 1920,
+   "h": 1280,
+   "kb": 398,
+   "note": "Hasuli in a presentation case. 1920x1280. Landscape.",
+   "source": "6490__DSC01434.jpg"
+  },
+  {
+   "file": "atelier-pencil-sketch-hasuli.jpg",
+   "w": 1330,
+   "h": 1000,
+   "kb": 119,
+   "note": "Pencil sketch of a hasuli. 1330x1000. Anchors 'Penciled Precious'.",
+   "source": "6623__media_20250304_131330_8502226434804255339.jpg"
+  }
+ ],
+ "05-detail": [
+  {
+   "file": "detail-anardana-neckpiece.jpg",
+   "w": 1588,
+   "h": 1920,
+   "kb": 606,
+   "note": "Anardana hero still. 1588x1920.",
+   "source": "1217__anardana.jpg"
+  },
+  {
+   "file": "detail-anardana-on-coral.jpg",
+   "w": 1920,
+   "h": 1808,
+   "kb": 409,
+   "note": "Anardana worn, coral silk. 1920x1808.",
+   "source": "2050__anarr.jpg"
+  },
+  {
+   "file": "detail-chest-chain-coral.png",
+   "w": 1500,
+   "h": 1500,
+   "kb": 1287,
+   "note": "Chest chain on coral saree. 1500x1500.",
+   "source": "4105__Untitled design (12).png"
+  },
+  {
+   "file": "detail-pearl-coral-macro.png",
+   "w": 1500,
+   "h": 1500,
+   "kb": 1316,
+   "note": "Pearl + coral necklace macro. 1500x1500.",
+   "source": "6449__Untitled design (2).png"
+  },
+  {
+   "file": "detail-necklace-terracotta.jpg",
+   "w": 1280,
+   "h": 1920,
+   "kb": 395,
+   "note": "Necklace on terracotta. 1280x1920.",
+   "source": "6482__5.jpg"
+  },
+  {
+   "file": "detail-set-flatlay.jpg",
+   "w": 1575,
+   "h": 1920,
+   "kb": 402,
+   "note": "Full set flat lay. 1575x1920.",
+   "source": "6492__8.jpg"
+  },
+  {
+   "file": "detail-jhumka-macro.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 789,
+   "note": "Jhumka macro. 1200x1200.",
+   "source": "6569__Untitled design (9).png"
+  },
+  {
+   "file": "detail-leaf-hairpiece-jasmine.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 2342,
+   "note": "Leaf hairpiece with jasmine. 1200x1200.",
+   "source": "6572__Untitled design (10).png"
+  },
+  {
+   "file": "detail-body-chain-black.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 730,
+   "note": "Body chain on black. 1200x1200.",
+   "source": "6577__Untitled design (13).png"
+  },
+  {
+   "file": "detail-nupur-foot-red.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 1812,
+   "note": "Nupur on foot, red saree. 1200x1200.",
+   "source": "6579__Untitled design (14).png"
+  },
+  {
+   "file": "detail-hand-jewelry.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 726,
+   "note": "Hand jewellery + ring. 1200x1200.",
+   "source": "6583__Untitled design (16).png"
+  },
+  {
+   "file": "detail-waist-belt-blue.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 947,
+   "note": "Waist belt on blue saree. 1200x1200.",
+   "source": "6596__Untitled design (17).png"
+  },
+  {
+   "file": "detail-clutch-mehendi-hands.png",
+   "w": 1200,
+   "h": 1200,
+   "kb": 573,
+   "note": "Clutch held, mehendi hands. 1200x1200.",
+   "source": "6720__Untitled design (24).png"
+  }
+ ],
+ "06-design-sheets": [
+  {
+   "file": "sheet-moss-rose-card.jpg",
+   "w": 900,
+   "h": 1650,
+   "kb": 585,
+   "note": "'Moss Rose' design card. 900x1650.",
+   "source": "1385__IMG_2247.JPG"
+  },
+  {
+   "file": "sheet-moss-rose-spec.png",
+   "w": 1047,
+   "h": 1920,
+   "kb": 486,
+   "note": "Moss Rose spec sheet. 1047x1920.",
+   "source": "1388__IMG_2041.PNG"
+  },
+  {
+   "file": "sheet-brass-fish.png",
+   "w": 1047,
+   "h": 1920,
+   "kb": 493,
+   "note": "Brass Fish design sheet. 1047x1920.",
+   "source": "1494__IMG_2033.PNG"
+  },
+  {
+   "file": "sheet-neckpiece-spec.png",
+   "w": 1047,
+   "h": 1920,
+   "kb": 417,
+   "note": "Neckpiece spec sheet. 1047x1920.",
+   "source": "1495__IMG_2249.PNG"
+  },
+  {
+   "file": "sheet-bagh-o-bon.jpg",
+   "w": 872,
+   "h": 1600,
+   "kb": 322,
+   "note": "'Bagh o Bon' clutch sheet. 872x1600.",
+   "source": "7548__496632063_1248086663985750_2685676726134407576_n.jpg"
+  }
+ ],
+ "07-product": [
+  {
+   "file": "moyur-bala-silver.jpg",
+   "product": "Moyur Bala - Silver",
+   "sku": "CJ-0001",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "moyur-hasuli-silver.jpg",
+   "product": "Moyur Hasuli - Silver",
+   "sku": "CJ-0003",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "gajra-neckpiece-silver.jpg",
+   "product": "Gajra Neckpiece - Silver",
+   "sku": "CJ-0008",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "gajra-neckpiece-brass.jpg",
+   "product": "Gajra Neckpiece - Brass",
+   "sku": "CJ-0009",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "three-layer-jhumka.jpg",
+   "product": "Three layer Jhumka",
+   "sku": "CJ-0010",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "kurichur-brass.jpg",
+   "product": "Kurichur - Brass",
+   "sku": "CJ-0012",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "tie-neckpiece.jpg",
+   "product": "Tie Neckpiece",
+   "sku": "CJ-0013",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "chest-chain.jpg",
+   "product": "Chest Chain",
+   "sku": "CJ-0014",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "jora-shalik-neckpiece.jpg",
+   "product": "Jora Shalik Neckpiece",
+   "sku": "CJ-0024",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "bokul-ful-neckpiece.jpg",
+   "product": "Bokul Ful Neckpiece",
+   "sku": "CJ-0025",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "mota-golap-bala-brass.jpg",
+   "product": "Mota Golap Bala - Brass",
+   "sku": "CJ-0027",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "daisy-ratan-chur.jpg",
+   "product": "Daisy Ratan Chur",
+   "sku": "CJ-0029",
+   "w": 768,
+   "h": 1024
+  },
+  {
+   "file": "tia-hasuli-set.jpg",
+   "product": "Tia Hasuli Set",
+   "sku": "CJ-0031",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "fish-choker.jpg",
+   "product": "Fish Choker",
+   "sku": "CJ-0033",
+   "w": 1440,
+   "h": 1920
+  },
+  {
+   "file": "fish-dul.jpg",
+   "product": "Fish Dul",
+   "sku": "CJ-0034",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "fish-finger-ring.jpg",
+   "product": "Fish Finger Ring",
+   "sku": "CJ-0035",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "fish-noth.jpg",
+   "product": "Fish Noth",
+   "sku": "CJ-0038",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "fish-cuff.jpg",
+   "product": "Fish Cuff",
+   "sku": "CJ-0039",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "anardana-neckpiece.jpg",
+   "product": "Anardana Neckpiece",
+   "sku": "CJ-0040",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "scarlet.jpg",
+   "product": "Scarlet",
+   "sku": "CJ-0050",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "pearl-bloom-neckpiece.jpg",
+   "product": "Pearl Bloom Neckpiece",
+   "sku": "CJ-0051",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "rose-bauti-black.jpg",
+   "product": "Rose Bauti - Black",
+   "sku": "CJ-0053",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "rose-bauti-brass.jpg",
+   "product": "Rose Bauti - Brass",
+   "sku": "CJ-0054",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "hati-hasuli-black.jpg",
+   "product": "Hati Hasuli - Black",
+   "sku": "CJ-0055",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "hati-dul.jpg",
+   "product": "Hati Dul",
+   "sku": "CJ-0057",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "hati-bala-black.jpg",
+   "product": "Hati Bala - Black",
+   "sku": "CJ-0058",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "hati-bala-silver.jpg",
+   "product": "Hati Bala - Silver",
+   "sku": "CJ-0059",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "moss-rose-neckpiece.jpg",
+   "product": "Moss Rose Neckpiece",
+   "sku": "CJ-0041",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "moss-rose-bala.jpg",
+   "product": "Moss Rose Bala",
+   "sku": "CJ-0042",
+   "w": 682,
+   "h": 1024
+  },
+  {
+   "file": "hati-mukh-bala.jpg",
+   "product": "Hati Mukh Bala",
+   "sku": "CJ-0062",
+   "w": 1279,
+   "h": 1920
+  },
+  {
+   "file": "antique-mukh-bala.jpg",
+   "product": "Antique Mukh Bala",
+   "sku": "CJ-0064",
+   "w": 1279,
+   "h": 1920
+  },
+  {
+   "file": "podma-chur.jpg",
+   "product": "Podma Chur",
+   "sku": "CJ-0068",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "poddo-kontho-haar.jpg",
+   "product": "Poddo Kontho Haar",
+   "sku": "CJ-0069",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "poddo-ring.jpg",
+   "product": "Poddo Ring",
+   "sku": "CJ-0070",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "bunon-haar.jpg",
+   "product": "Bunon Haar",
+   "sku": "CJ-0079",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "leaf-hair-clip.jpg",
+   "product": "Leaf Hair Clip",
+   "sku": "CJ-0087",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "bagan-bilash-set.jpg",
+   "product": "Bagan Bilash set",
+   "sku": null,
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "maloti-2-neckpiece.jpg",
+   "product": "Maloti 2 Neckpiece",
+   "sku": "CJ-0095",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "aurora-royale.jpg",
+   "product": "Aurora Royale",
+   "sku": "CJ-0096",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "bokul-jhaar-neckpiece.jpg",
+   "product": "Bokul Jhaar Neckpiece",
+   "sku": "CJ-0097",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "panna-lohor-hasuli.jpg",
+   "product": "Panna Lohor Hasuli",
+   "sku": "CJ-0101",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "turquoise-leaf-sita-haar-silver.jpg",
+   "product": "Turquoise Leaf Sita Haar - Silver",
+   "sku": "CJ-0103",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "sunflower-silver.jpg",
+   "product": "Sunflower - Silver",
+   "sku": "CJ-0114",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "kharu.jpg",
+   "product": "Kharu",
+   "sku": "CJ-0119",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "nakshi-kantha-long-neckpiece.jpg",
+   "product": "Nakshi Kantha Long Neckpiece",
+   "sku": "CJ-0120",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "nakshi-kantha-chur.jpg",
+   "product": "Nakshi Kantha Chur",
+   "sku": "CJ-0121",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "nakshi-kantha-short.jpg",
+   "product": "Nakshi Kantha Short",
+   "sku": "CJ-0122",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "nakshi-kantha-dul.jpg",
+   "product": "Nakshi Kantha Dul",
+   "sku": "CJ-0123",
+   "w": 1500,
+   "h": 1500
+  },
+  {
+   "file": "naksha-hati-bala-black.jpg",
+   "product": "Naksha Hati Bala-Black",
+   "sku": null,
+   "w": 4000,
+   "h": 4000
+  },
+  {
+   "file": "naksha-hati-bala-brass.jpg",
+   "product": "Naksha Hati Bala-Brass",
+   "sku": null,
+   "w": 4000,
+   "h": 4000
+  },
+  {
+   "file": "nokshi-kantha-clutch.jpg",
+   "product": "Nokshi Kantha Clutch",
+   "sku": null,
+   "w": 926,
+   "h": 816
+  },
+  {
+   "file": "bagh-o-bon.jpg",
+   "product": "Bagh o Bon",
+   "sku": null,
+   "w": 1024,
+   "h": 1024
+  },
+  {
+   "file": "hiya-bindu-choker.jpg",
+   "product": "Hiya Bindu Choker",
+   "sku": null,
+   "w": 3072,
+   "h": 4096
+  },
+  {
+   "file": "mayurakshi.jpg",
+   "product": "Mayurakshi",
+   "sku": null,
+   "w": 660,
+   "h": 1024
+  },
+  {
+   "file": "arundhati.jpg",
+   "product": "Arundhati",
+   "sku": null,
+   "w": 628,
+   "h": 1024
+  },
+  {
+   "file": "saudamini.jpg",
+   "product": "Saudamini",
+   "sku": null,
+   "w": 566,
+   "h": 1024
+  },
+  {
+   "file": "zura-hashuli.jpg",
+   "product": "Zura Hashuli",
+   "sku": null,
+   "w": 3024,
+   "h": 4824
+  },
+  {
+   "file": "golap-jorowa-haar.jpg",
+   "product": "Golap Jorowa Haar",
+   "sku": null,
+   "w": 3456,
+   "h": 4308
+  },
+  {
+   "file": "golap-bun-cage.jpg",
+   "product": "Golap Bun Cage",
+   "sku": null,
+   "w": 566,
+   "h": 1024
+  },
+  {
+   "file": "bou-nupur.jpg",
+   "product": "Bou Nupur",
+   "sku": null,
+   "w": 768,
+   "h": 1024
+  },
+  {
+   "file": "scarlet-nupur.jpg",
+   "product": "Scarlet Nupur",
+   "sku": null,
+   "w": 1548,
+   "h": 2048
+  },
+  {
+   "file": "heritage-nupur.jpg",
+   "product": "Heritage Nupur",
+   "sku": null,
+   "w": 768,
+   "h": 1024
+  },
+  {
+   "file": "moss-ross-bicha.jpg",
+   "product": "Moss Ross Bicha",
+   "sku": null,
+   "w": 768,
+   "h": 1024
+  },
+  {
+   "file": "coin-bicha.jpg",
+   "product": "Coin Bicha",
+   "sku": null,
+   "w": 4224,
+   "h": 5632
+  },
+  {
+   "file": "debi-spiral-bun-cage.jpg",
+   "product": "Debi Spiral Bun Cage",
+   "sku": null,
+   "w": 4224,
+   "h": 5632
+  },
+  {
+   "file": "coin-nupur.jpg",
+   "product": "Coin Nupur",
+   "sku": null,
+   "w": 1024,
+   "h": 858
+  },
+  {
+   "file": "zamini.jpg",
+   "product": "Zamini",
+   "sku": null,
+   "w": 1536,
+   "h": 2048
+  },
+  {
+   "file": "hati-dul-2.jpg",
+   "product": "Hati Dul 2",
+   "sku": null,
+   "w": 3000,
+   "h": 3000
+  },
+  {
+   "file": "shapla-bil-box-clutch.jpg",
+   "product": "Shapla Bil Box Clutch",
+   "sku": null,
+   "w": 1440,
+   "h": 1920
+  },
+  {
+   "file": "lux-bun-cage.jpg",
+   "product": "Lux Bun Cage",
+   "sku": null,
+   "w": 1920,
+   "h": 1281
+  },
+  {
+   "file": "benaroshi-clutch.jpg",
+   "product": "Benaroshi Clutch",
+   "sku": null,
+   "w": 836,
+   "h": 1280
+  },
+  {
+   "file": "bubu-r-sinduk.jpg",
+   "product": "Bubu_r Sinduk",
+   "sku": null,
+   "w": 1280,
+   "h": 1146
+  }
+ ]
+}

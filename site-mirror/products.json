@@ -1,0 +1,548 @@
+{
+ "shop_cj-0119-kharu-549.html": {
+  "name": "Kharu",
+  "price": "1,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_golap-jorowa-haar-588.html": {
+  "name": "Golap Jorowa Haar",
+  "price": "3,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_coin-bicha-600.html": {
+  "name": "Coin Bicha",
+  "price": "3,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0003-moyur-hasuli-silver-305.html": {
+  "name": "Moyur Hasuli - Silver",
+  "price": "2,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0122-nakshi-kantha-short-552.html": {
+  "name": "Nakshi Kantha Short",
+  "price": "2,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0014-chest-chain-316.html": {
+  "name": "Chest Chain",
+  "price": "3,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0038-fish-noth-340.html": {
+  "name": "Fish Noth",
+  "price": "450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0097-bokul-jhaar-neckpiece-527.html": {
+  "name": "Bokul Jhaar Neckpiece",
+  "price": "3,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0025-bokul-ful-neckpiece-327.html": {
+  "name": "Bokul Ful Neckpiece",
+  "price": "2,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_heritage-nupur-598.html": {
+  "name": "Heritage Nupur",
+  "price": "6,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_ecosystem-of-sundarban-608.html": {
+  "name": "Ecosystem of Sundarban",
+  "price": "8,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0010-three-layer-jhumka-312.html": {
+  "name": "Three layer Jhumka",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_lux-bun-cage-621.html": {
+  "name": "Lux Bun Cage",
+  "price": "2,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0053-rose-bauti-black-355.html": {
+  "name": "Rose Bauti - Black",
+  "price": "2,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0051-pearl-bloom-neckpiece-353.html": {
+  "name": "Pearl Bloom Neckpiece",
+  "price": "2,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_majestic-royal-bengal-neckpiece-609.html": {
+  "name": "Majestic Royal Bengal Neckpiece",
+  "price": "18,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_bagh-o-bon-578.html": {
+  "name": "Bagh o Bon",
+  "price": "18,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_debi-spiral-bun-cage-602.html": {
+  "name": "Debi Spiral Bun Cage",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0059-hati-bala-silver-361.html": {
+  "name": "Hati Bala - Silver",
+  "price": "950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0008-gajra-neckpiece-silver-310.html": {
+  "name": "Gajra Neckpiece - Silver",
+  "price": "3,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_naksha-hati-bala-black-574.html": {
+  "name": "Naksha Hati Bala-Black",
+  "price": "2,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0031-tia-hasuli-set-333.html": {
+  "name": "Tia Hasuli Set",
+  "price": "3,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0114-sunflower-silver-544.html": {
+  "name": "Sunflower - Silver",
+  "price": "1,650.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_hiya-bindu-choker-583.html": {
+  "name": "Hiya Bindu Choker",
+  "price": "1,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_mayurakshi-584.html": {
+  "name": "Mayurakshi",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0064-antique-mukh-bala-494.html": {
+  "name": "Antique Mukh Bala",
+  "price": "950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0034-fish-dul-336.html": {
+  "name": "Fish Dul",
+  "price": "850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_charulata-set-622.html": {
+  "name": "Charulata Set",
+  "price": "3,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0033-fish-choker-335.html": {
+  "name": "Fish Choker",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0029-daisy-ratan-chur-331.html": {
+  "name": "Daisy Ratan Chur",
+  "price": "1,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0079-bunon-haar-509.html": {
+  "name": "Bunon Haar",
+  "price": "22,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0039-fish-cuff-341.html": {
+  "name": "Fish Cuff",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_hati-dul-2-605.html": {
+  "name": "Hati Dul 2",
+  "price": "550.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_lohor-589.html": {
+  "name": "Lohor",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_naksha-hati-bala-brass-575.html": {
+  "name": "Naksha Hati Bala-Brass",
+  "price": "2,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0009-gajra-neckpiece-brass-311.html": {
+  "name": "Gajra Neckpiece - Brass",
+  "price": "3,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0062-hati-mukh-bala-492.html": {
+  "name": "Hati Mukh Bala",
+  "price": "1,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_coin-nupur-603.html": {
+  "name": "Coin Nupur",
+  "price": "2,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0087-leaf-hair-clip-517.html": {
+  "name": "Leaf Hair Clip",
+  "price": "1,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_shapla-bil-box-clutch-606.html": {
+  "name": "Shapla Bil Box Clutch",
+  "price": "7,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_golap-bun-cage-590.html": {
+  "name": "Golap Bun Cage",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0123-nakshi-kantha-dul-553.html": {
+  "name": "Nakshi Kantha Dul",
+  "price": "1,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0035-fish-finger-ring-337.html": {
+  "name": "Fish Finger Ring",
+  "price": "750.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0054-rose-bauti-brass-356.html": {
+  "name": "Rose Bauti - Brass",
+  "price": "2,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_patanjali-neckpiece-607.html": {
+  "name": "Patanjali Neckpiece",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0068-podma-chur-498.html": {
+  "name": "Podma Chur",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0001-moyur-bala-silver-230.html": {
+  "name": "Moyur Bala - Silver",
+  "price": "950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0027-mota-golap-bala-brass-329.html": {
+  "name": "Mota Golap Bala - Brass",
+  "price": "1,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0095-maloti-2-neckpiece-525.html": {
+  "name": "Maloti 2 Neckpiece",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0012-kurichur-brass-314.html": {
+  "name": "Kurichur - Brass",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0040-anardana-neckpiece-342.html": {
+  "name": "Anardana Neckpiece",
+  "price": "3,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0055-hati-hasuli-black-357.html": {
+  "name": "Hati Hasuli - Black",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_benaroshi-clutch-653.html": {
+  "name": "Benaroshi Clutch",
+  "price": "9,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_saudamini-586.html": {
+  "name": "Saudamini",
+  "price": "8,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_arundhati-585.html": {
+  "name": "Arundhati",
+  "price": "19,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0041-moss-rose-neckpiece-488.html": {
+  "name": "Moss Rose Neckpiece",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0096-aurora-royale-526.html": {
+  "name": "Aurora Royale",
+  "price": "3,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0103-turquoise-leaf-sita-haar-silver-533.html": {
+  "name": "Turquoise Leaf Sita Haar - Silver",
+  "price": "5,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0101-panna-lohor-hasuli-531.html": {
+  "name": "Panna Lohor Hasuli",
+  "price": "5,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_bagan-bilash-set-522.html": {
+  "name": "Bagan Bilash set",
+  "price": "1,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0058-hati-bala-black-360.html": {
+  "name": "Hati Bala - Black",
+  "price": "850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_scarlet-nupur-597.html": {
+  "name": "Scarlet Nupur",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_bou-nupur-596.html": {
+  "name": "Bou Nupur",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0050-scarlet-352.html": {
+  "name": "Scarlet",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0024-jora-shalik-neckpiece-326.html": {
+  "name": "Jora Shalik Neckpiece",
+  "price": "2,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0042-moss-rose-bala-489.html": {
+  "name": "Moss Rose Bala",
+  "price": "1,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_nokshi-kantha-clutch-577.html": {
+  "name": "Nokshi Kantha Clutch",
+  "price": "9,450.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_moss-ross-bicha-599.html": {
+  "name": "Moss Ross Bicha",
+  "price": "3,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0120-nakshi-kantha-long-neckpiece-550.html": {
+  "name": "Nakshi Kantha Long Neckpiece",
+  "price": "2,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_zamini-604.html": {
+  "name": "Zamini",
+  "price": "6,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_zura-hashuli-587.html": {
+  "name": "Zura Hashuli",
+  "price": "6,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0057-hati-dul-359.html": {
+  "name": "Hati Dul",
+  "price": "550.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0070-poddo-ring-500.html": {
+  "name": "Poddo Ring",
+  "price": "1,250.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0013-tie-neckpiece-315.html": {
+  "name": "Tie Neckpiece",
+  "price": "2,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0121-nakshi-kantha-chur-551.html": {
+  "name": "Nakshi Kantha Chur",
+  "price": "1,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0094-maloti-1-neckpiece-524.html": {
+  "name": "Maloti 1 Neckpiece",
+  "price": "1,950.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_bubu-r-sinduk-654.html": {
+  "name": "Bubu'r Sinduk",
+  "price": "12,500.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ },
+ "shop_cj-0069-poddo-kontho-haar-499.html": {
+  "name": "Poddo Kontho Haar",
+  "price": "4,850.00",
+  "cats": [],
+  "desc": "",
+  "avail": null
+ }
+}
