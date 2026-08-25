@@ -1,0 +1,16 @@
+# Render blueprint. Push this repo, then in Render:
+#   New → Blueprint → select the repo. It reads this file.
+services:
+  - type: web
+    name: canvas-bd
+    runtime: docker
+    plan: starter          # 512MB. free tier sleeps and cold-starts badly for a storefront.
+    region: singapore      # closest Render region to Dhaka
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

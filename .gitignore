@@ -1,23 +1,29 @@
-# Python
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next
+.next/
+out/
+next-env.d.ts
+
+# production media — rebuild with tools/build-media.py
+# Sources live in brand/, which IS tracked.
+/public/media/
+/public/video/
+
+# python tooling
 .venv/
 __pycache__/
 *.pyc
 
-# OS
+# env
+.env
+.env*.local
+
+# misc
 .DS_Store
-
-# Generated web derivatives — rebuild with scripts/build-assets.py
-# Sources live in assets/ and video/, which ARE tracked.
-src/assets/img/
-src/assets/video/
-
-# Reference scrape of the live Odoo site.
-# The crawl scripts and extracted data are tracked; the bulk downloads are not
-# (~70MB, and reproducible with scripts in site-mirror/).
-site-mirror/pages/
-site-mirror/assets/
-
-# Local screenshots / scratch
-/tmp/
-shots/
 *.log
+.vercel
+/tmp/

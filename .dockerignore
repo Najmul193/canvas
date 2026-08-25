@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.venv
+brand
+tools
+*.md
+.DS_Store
+npm-debug.log
