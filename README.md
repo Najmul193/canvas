@@ -10,19 +10,44 @@ Next.js 16 · React 19 · TypeScript · Tailwind v4 · GSAP + Lenis · Docker
 ## Quick start
 
 ```bash
+./start.sh          # http://localhost:3000
+./stop.sh
+```
+
+That's it from a fresh clone. `start.sh` installs npm dependencies if they're
+missing and builds `public/` from `brand/` on first run, creating the Python
+venv it needs along the way.
+
+| | |
+|---|---|
+| `./start.sh` | Dev server, hot reload |
+| `./start.sh prod` | Production build, then serve it |
+| `./start.sh docker` | Build the image and run the container |
+| `./stop.sh` | Stop whichever of those is running |
+| `PORT=4000 ./start.sh` | Use a different port |
+
+`stop.sh` also frees the port if you started a server by hand in another
+terminal, and removes the container if you used docker mode.
+
+Logs: `tail -f .run/server.log`, or `docker logs -f canvas-bd-run`.
+
+The video build needs `ffmpeg` on PATH (`brew install ffmpeg`). Without it
+images still build and video is skipped.
+
+<details>
+<summary>Doing it manually</summary>
+
+```bash
 npm install
 python3 -m venv .venv && .venv/bin/pip install pillow websocket-client
 .venv/bin/python tools/build-media.py     # writes public/media + public/video
 npm run dev
 ```
 
-<http://localhost:3000>
-
 `public/media/` and `public/video/` are **git-ignored build output**. Sources
-live in `brand/`, which is tracked. A fresh clone has no images until you run
-`build-media.py` — if every image is broken, that's the step you skipped.
-
-The video step needs `ffmpeg` on PATH (`brew install ffmpeg`).
+live in `brand/`, which is tracked. A fresh clone has no images until
+`build-media.py` runs — if every image is broken, that's the step you skipped.
+</details>
 
 | Command | |
 |---|---|

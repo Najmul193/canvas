@@ -35,3 +35,4 @@ tools/reference/site-mirror/assets/
 
 # TS build info
 tsconfig.tsbuildinfo
+.run/
