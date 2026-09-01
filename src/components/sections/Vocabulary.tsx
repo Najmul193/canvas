@@ -3,8 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import { vocabulary } from "@/data/site";
+import { chapter } from "@/data/story";
 import { SplitLines } from "@/components/motion/SplitLines";
 import { Reveal } from "@/components/motion/Reveal";
+import { ChapterMark } from "@/components/ui/Chapter";
 import { cn } from "@/lib/cn";
 
 /**
@@ -18,14 +20,12 @@ export function Vocabulary() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="bg-bone text-text-on-bone">
+    <section id="naam" className="bg-bone text-text-on-bone">
       <div className="shell py-24 md:py-32">
-        <Reveal>
-          <p className="t-eyebrow text-gold-deep">The vocabulary</p>
-        </Reveal>
+        <ChapterMark chapter={chapter.naam} tone="bone" />
         <SplitLines
           as="h2"
-          className="t-display mt-6 max-w-[18ch]"
+          className="t-display mt-10 max-w-[18ch]"
           lines={["Every piece has a name", "that predates us."]}
         />
         <Reveal delay={120}>
@@ -67,7 +67,8 @@ export function Vocabulary() {
           </ul>
 
           <div className="hidden md:block">
-            <div className="sticky top-28 aspect-[4/5] overflow-hidden rounded-2xl bg-bone-sink">
+            <div className="sticky top-28">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-bone-sink">
               {vocabulary.map((v, i) => (
                 <Image
                   key={v.rom}
@@ -81,6 +82,7 @@ export function Vocabulary() {
                   )}
                 />
               ))}
+              </div>
             </div>
           </div>
         </div>

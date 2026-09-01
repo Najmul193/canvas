@@ -1,43 +1,54 @@
-"use client";
-
 import { ScrubVideo } from "@/components/motion/ScrubVideo";
 import { SplitLines } from "@/components/motion/SplitLines";
 import { Reveal } from "@/components/motion/Reveal";
+import { ChapterMark } from "@/components/ui/Chapter";
+import { FigureNote } from "@/components/ui/Verse";
+import { chapter, figures } from "@/data/story";
 
 /**
- * Penciled Precious — the drawing.
+ * ০৩ · রেখা — the line. Penciled Precious, the drawing.
  *
- * The previous build cross-faded a sketch into a photograph of the finished
+ * An earlier build cross-faded a sketch into a photograph of the finished
  * piece. Two unrelated images at half opacity always read as a rendering
  * fault, never as a transition. This instead pins the section and scrubs the
  * footage frame by frame, so the reader drives one continuous shot. Same
  * story, no ghosting.
+ *
+ * The alpona note beside it is the local version of the same idea, and it is
+ * the reason this chapter sits third rather than first: in Bengal the line
+ * always precedes the occasion.
  */
 export function Craft() {
   return (
-    <section className="relative bg-ink">
-      <div className="shell py-24 text-center md:py-32">
-        <Reveal>
-          <p className="t-eyebrow text-gold">Penciled Precious</p>
-        </Reveal>
-        <SplitLines
-          as="h2"
-          className="t-display mx-auto mt-6 max-w-[16ch]"
-          lines={["From graphite", "to gold."]}
-        />
-        <Reveal delay={120}>
-          <p className="t-body-lg mx-auto mt-7 max-w-[46ch] text-text-on-ink-dim">
-            Every piece begins as a drawing. Nothing is bought in, nothing is
-            copied — the line comes first, then the metal.
-          </p>
-        </Reveal>
+    <section id="rekha" className="relative bg-ink">
+      <div className="shell py-24 md:py-32">
+        <ChapterMark chapter={chapter.rekha} />
+
+        <div className="mt-10 grid gap-14 md:grid-cols-[1.15fr_1fr] md:gap-24">
+          <div>
+            <p className="t-eyebrow text-gold">Penciled Precious</p>
+            <SplitLines
+              as="h2"
+              className="t-display mt-5 max-w-[13ch]"
+              lines={["From graphite", "to gold."]}
+            />
+            <Reveal delay={120}>
+              <p className="t-body-lg mt-8 max-w-[46ch] text-text-on-ink-dim">
+                Every piece begins as a drawing. Nothing is bought in, nothing
+                is copied — the line comes first, then the metal. A sketch that
+                does not survive the pencil never reaches the bench.
+              </p>
+            </Reveal>
+          </div>
+
+          <FigureNote figure={figures.rekha} className="md:pt-6" />
+        </div>
       </div>
 
       <ScrubVideo
         src="/video/sketch.mp4"
         poster="/video/sketch-poster.webp"
-        scrollLength={2.2}
-        className="relative h-[100svh] w-full overflow-hidden"
+        track={2.6}
       >
         <div
           aria-hidden="true"

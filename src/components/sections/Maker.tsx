@@ -9,7 +9,7 @@ export function Maker() {
         <Reveal>
           <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-bone-sink">
             <Image
-              src="/media/founder-tanwy-kabir-large-1080.webp"
+              src="/media/founder-tanwy-kabir-640.webp"
               alt={`${site.founder.name}, founder of Canvas`}
               fill
               sizes="(max-width: 768px) 100vw, 400px"

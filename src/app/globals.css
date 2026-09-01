@@ -141,6 +141,37 @@ a { color: inherit; text-decoration: none; }
 /* Bangla needs ~15% more leading than Latin at the same size. */
 .t-bangla { font-family: var(--font-bangla); line-height: 1.7; }
 
+/* Verse. Bangla display size, set with no tracking at all — the negative
+   letter-spacing that flatters a didone breaks conjuncts and makes the
+   matras collide. Leading is looser again than .t-bangla because these lines
+   are long and carry ascenders above the matra. */
+.t-verse {
+  font-family: var(--font-bangla);
+  font-size: clamp(1.3rem, 0.85rem + 1.7vw, 2.2rem);
+  line-height: 1.75;
+  letter-spacing: 0;
+  font-weight: 400;
+  /* No text-wrap: balance here. The line breaks are the poet's, authored in
+     story.ts, and balancing re-breaks them into something else. */
+}
+.t-verse-sm {
+  font-family: var(--font-bangla);
+  font-size: clamp(1.15rem, 0.9rem + 1vw, 1.6rem);
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+
+/* The hero's Bangla line. Sits between .t-verse-sm and the display scale on
+   purpose: big enough to be read as a line rather than a caption, small
+   enough that it never competes with the h1 under it. */
+.t-lede-bn {
+  font-family: var(--font-bangla);
+  font-size: clamp(1.3rem, 1rem + 1.25vw, 2rem);
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
 .num { font-variant-numeric: tabular-nums; }
 
 /* ==========================================================================
@@ -149,13 +180,16 @@ a { color: inherit; text-decoration: none; }
 
 /* Base state for scroll reveals. JS adds .is-in.
    Without JS these never hide — see the <noscript> block in layout. */
+/* No `will-change` here. There are ~40 of these on the homepage, and a
+   will-change that is never released is a compositor layer that is never
+   released. Reveal promotes each element on the way in and drops the hint the
+   moment it resolves — see components/motion/Reveal.tsx. */
 [data-reveal] {
   opacity: 0;
   transform: translate3d(0, 28px, 0);
   transition:
     opacity 1s var(--ease-out-apple),
     transform 1s var(--ease-out-apple);
-  will-change: opacity, transform;
 }
 [data-reveal].is-in {
   opacity: 1;

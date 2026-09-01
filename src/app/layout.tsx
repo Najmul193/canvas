@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Bodoni_Moda, Inter, Noto_Serif_Bengali } from "next/font/google";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { Nav } from "@/components/layout/Nav";
+import { ChapterRail } from "@/components/layout/ChapterRail";
 import { Footer } from "@/components/layout/Footer";
 import { site } from "@/data/site";
 import "./globals.css";
@@ -99,6 +100,7 @@ export default function RootLayout({
 
         <SmoothScroll />
         <Nav />
+        <ChapterRail />
         <main id="main">{children}</main>
         <Footer />
 

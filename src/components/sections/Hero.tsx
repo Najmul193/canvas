@@ -44,6 +44,7 @@ export function Hero() {
         ease: "power2.out",
       })
         .from("[data-hero-eyebrow]", { y: 16, opacity: 0, duration: 0.9, ease: "power3.out" }, 0.45)
+        .from("[data-hero-bn]", { y: 16, opacity: 0, duration: 0.9, ease: "power3.out" }, 0.5)
         .from("[data-hero-line]", {
           yPercent: 110,
           opacity: 0,
@@ -58,7 +59,8 @@ export function Hero() {
           duration: 0.8,
           ease: "power2.out",
           stagger: 0.07,
-        }, 1.1);
+        }, 1.1)
+        .from("[data-hero-cue]", { y: 10, opacity: 0, duration: 0.9, ease: "power2.out" }, 1.5);
 
       // Recede on exit. Desktop only — pinning the hero on touch costs more
       // than it gives.
@@ -75,7 +77,7 @@ export function Hero() {
             scrub: 0.8,
           },
         });
-        gsap.to("[data-hero-copy]", {
+        gsap.to("[data-hero-copy], [data-hero-cue]", {
           y: -60,
           opacity: 0,
           ease: "none",
@@ -115,7 +117,20 @@ export function Hero() {
           Handcrafted in Dhaka
         </p>
 
-        <h1 className="t-hero mt-5 max-w-[13ch]">
+        {/* Chapter zero.
+            This line is not the headline in another script — a Bangla line
+            that only restates the English is decoration, and it reads as
+            decoration. It says the thing the English cannot: নকশা is the same
+            word the page uses for নকশী কাঁথা seven chapters later, and "নতুন
+            হাতে" means the maker's hands and the wearer's at once.
+            The hairline is the mark the seven chapters carry, so the hero
+            joins the count without being numbered. */}
+        <div data-hero-bn className="mt-7 flex items-center gap-4 md:gap-6">
+          <span aria-hidden="true" className="h-px w-10 shrink-0 bg-gold md:w-14" />
+          <p className="t-lede-bn">পুরোনো নকশা, নতুন হাতে</p>
+        </div>
+
+        <h1 className="t-hero mt-6 max-w-[13ch]">
           <span className="block overflow-hidden">
             <span data-hero-line className="block">Heritage,</span>
           </span>
@@ -144,6 +159,19 @@ export function Hero() {
           </a>
         </div>
       </div>
+
+      {/* Tells the reader the page has a shape and a length before they commit
+          to scrolling it. A bare chevron says "there is more"; this says how
+          much more, which is the difference between a prompt and a contract. */}
+      <a
+        data-hero-cue
+        href="#mati"
+        className="absolute inset-x-0 bottom-6 z-10 mx-auto hidden w-max items-center gap-4 md:flex"
+      >
+        <span className="t-bangla text-[15px] leading-none text-gold">সাতটি অধ্যায়</span>
+        <span aria-hidden="true" className="h-px w-10 bg-white/30" />
+        <span className="t-eyebrow text-text-on-ink-dim">Seven chapters</span>
+      </a>
     </section>
   );
 }
