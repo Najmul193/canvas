@@ -107,3 +107,54 @@ export function FigureNote({
     </div>
   );
 }
+
+/**
+ * A plain attributed quotation, set large.
+ *
+ * The third kind, and it needs to be distinguishable from the other two at a
+ * glance. `Verse` is Bangla poetry with our gloss beneath it; `FigureNote` is
+ * a Bangla term with our own sentence beside it and no attribution claimed.
+ * This is someone else's sentence, in English, quoted exactly — so it gets the
+ * quote marks that `FigureNote` is denied and the em-dash credit that `Verse`
+ * sets in Bangla. The same rule governs all three: it is here because it can
+ * be attributed, and it would not be here otherwise.
+ */
+export function PullQuote({
+  text,
+  attribution,
+  tone = "ink",
+  /**
+   * `lg` is for a quote standing on its own across a wide measure. `sm` is for
+   * one sitting inside a column beside something else — at display size in a
+   * 400px column a seven-word sentence sets as seven lines and takes over the
+   * section it was meant to annotate.
+   */
+  size = "lg",
+  className,
+}: {
+  text: string;
+  attribution: string;
+  tone?: Tone;
+  size?: "lg" | "sm";
+  className?: string;
+}) {
+  const t = tones[tone];
+
+  return (
+    <figure className={cn(size === "lg" ? "max-w-[30rem]" : "max-w-[26rem]", className)}>
+      <Reveal>
+        <span aria-hidden="true" className={cn("block h-px w-12", t.rule)} />
+      </Reveal>
+      <Reveal delay={90}>
+        <blockquote
+          className={cn("italic", size === "lg" ? "t-headline mt-8" : "t-title mt-6", t.text)}
+        >
+          &ldquo;{text}&rdquo;
+        </blockquote>
+        <figcaption className={cn("t-eyebrow", t.gold, size === "lg" ? "mt-7" : "mt-5")}>
+          — {attribution}
+        </figcaption>
+      </Reveal>
+    </figure>
+  );
+}

@@ -88,18 +88,21 @@ src/
   app/
     layout.tsx          Fonts, metadata, JSON-LD, smooth scroll, nav/footer
     page.tsx            Section order (the light/dark rhythm)
+    about/page.tsx      Our Story — five parts, same rhythm
     globals.css         Design tokens + type/motion primitives
   components/
-    layout/             Nav, Footer, ChapterRail
+    layout/             Nav, Footer, ChapterRail, PageHero
     sections/           Hero, Courtyard, Vocabulary, Craft, Atelier,
                         Collections, Worn, Maker, Bridal, Ambient, Featured
+    sections/about/     House, Vision, Hand, Founder, Visit
     motion/             SmoothScroll, ScrubVideo, AmbientVideo, Parallax,
-                        Reveal, Drift, SplitLines
+                        Reveal, Enter, Drift, SplitLines
     ui/                 ProductCard, Chapter, Verse
   data/
     products.ts         78 products, generated from the live catalogue
     site.ts             Brand facts, routes, taxonomy, collections
     story.ts            The seven chapters, and the quotations
+    about.ts            Our Story copy, and where each fact came from
   lib/                  env capability checks, cn(), shared rAF ticker, scroller
 
 public/                 Build output (git-ignored)
@@ -162,6 +165,39 @@ authorship. `src/data/story.ts` holds both types and says which is which.
 The Bangla is always the quotation and the English underneath is our gloss,
 credited as ours. Setting the English at display size instead would quietly make
 the translation the work and the original the footnote.
+
+### Our Story
+
+`/about` is **five parts**, on the same ink → bone → ink alternation:
+
+| | | | |
+|---|---|---|---|
+| ০১ | ঘর | the house | what Canvas makes, and the trade it has chosen |
+| ০২ | দৃষ্টি | the vision | why the craft is held exactly and the proportion moved |
+| ০৩ | হাত | the hand | the sheet a piece is argued out on |
+| ০৪ | নকশাকার | the designer | Tanwy Kabir, at length rather than in three lines |
+| ০৫ | ঠিকানা | the address | where to stand and hold one |
+
+The count restarts at ০১ rather than continuing from ০৭. It is a different
+telling of the same house, not chapter eight — and because `ChapterRail`
+observes the homepage's seven ids and finds none of these, it stays folded
+away, which is the right answer for a page with no spine.
+
+**Every fact on it comes from the brand's own about page**, crawled to
+`tools/reference/site-mirror/pages/about.html`. Nothing was added. What changed
+is the voice: the Odoo copy is written in the register of a catalogue listing,
+and nowhere else on this site speaks that way. What is deliberately *absent*
+matters as much — no founding year, no headcount, no artisan count, no award.
+Those are the numbers an about page wants most, and none of them are on the
+record. A house whose whole story is authorship cannot invent its own.
+
+The three sheets in ০৩ are captioned from **the images themselves**, not from
+`manifest.json`, which calls two of them "spec sheet" and is misleading. They
+are not elevations and sections: each is a motif drawn from life, the belief
+attached to it written out beside it, and the piece it becomes worked out
+underneath. The first draft of this page described a pair of myna as a
+technical drawing, which is what captioning an asset nobody has opened looks
+like.
 
 **Type.** Bodoni Moda for display — a high-contrast didone, continuing the voice
 already on the brand's own product cards. Inter for UI, as the closest free
@@ -319,4 +355,8 @@ Odoo API is the seam if this later goes headless.
 - **All brand photography is 9:16**, reels-first. Fine for the full-bleed hero,
   limiting for wide desktop compositions.
 - Generated video is 720×1280, below the 1080×1920 spec.
-- Only the homepage is built. Shop, product, and editorial pages are next.
+- Shop, product and editorial pages are not built yet. The homepage and
+  `/about` are; everything else the nav points at is still Odoo's.
+- `npm run lint` does not work. `next lint` was removed in Next 16 and there
+  is no `eslint.config.js` in the repo, so the script fails whichever way it
+  is run. ESLint needs configuring before it can be part of the loop.
